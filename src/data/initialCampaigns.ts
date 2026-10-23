@@ -3,6 +3,8 @@ import pinPizzaImg from '../assets/images/pin_pizza.jpg';
 import pinNoodlesImg from '../assets/images/pin_noodles.jpg';
 import pinChairImg from '../assets/images/pin_gaming_chair.jpg';
 import pinDualSetupImg from '../assets/images/pin_dual_setup.jpg';
+import platBurgerImg from '../assets/images/plat_burger_gourmet_1792791935734.jpg';
+import platPatesImg from '../assets/images/plat_pates_truffes_1792791935816.jpg';
 
 export const INITIAL_USER_ACCOUNT: UserAccount = {
   name: 'Issifou Cherifou',
@@ -134,6 +136,64 @@ export const INITIAL_CAMPAIGNS: Campaign[] = [
     createdDate: '18 Octobre 2026',
     tags: ['DualPC', 'Battlestation', 'DeskInspo', 'RGBSetup'],
     mobileEngagementRate: 89.6
+  },
+  {
+    id: 'camp-5',
+    shortCode: 'BURGER-77',
+    pinId: '1098823471029384751',
+    shortUrl: 'https://pin.it/burger-gourmet',
+    pinterestUrl: 'https://www.pinterest.com/pin/1098823471029384751/',
+    title: 'Burger Gourmet Artisanal & Frites Maison Croustillantes',
+    kicker: 'Plat Signature · Smash Burger du Chef',
+    description: 'Double steak haché façon smash burger, cheddar affiné fondu, bacon croustillant et sauce secrète, servi sur planche rustique avec frites dorées.',
+    category: 'Plat Gourmand & Burger',
+    image: platBurgerImg,
+    fallbackGradient: 'from-amber-900 via-stone-900 to-black',
+    status: 'active',
+    price: 18.50,
+    dailyBudget: 25.00,
+    totalSpent: 85.00,
+    impressions: 19400,
+    clicks: 2850,
+    saves: 1320,
+    conversions: 184,
+    revenue: 960.00,
+    targetAudience: 'Amateurs de burgers gourmets, street-food lovers, 18-40 ans',
+    destinationUrl: 'https://pin.it/burger-gourmet',
+    adFormat: 'standard',
+    ctaText: 'Commander le plat',
+    createdDate: '23 Octobre 2026',
+    tags: ['Burger', 'FritesMaison', 'StreetFood', 'Gourmet'],
+    mobileEngagementRate: 92.5
+  },
+  {
+    id: 'camp-6',
+    shortCode: 'TRUFFES-99',
+    pinId: '1098823471029384752',
+    shortUrl: 'https://pin.it/pasta-truffes',
+    pinterestUrl: 'https://www.pinterest.com/pin/1098823471029384752/',
+    title: 'Tagliatelles Fraîches aux Truffes Noires & Parmesan Affiné',
+    kicker: 'Plat Signature · Pasta Gastronomique',
+    description: 'Pâtes fraîches maison enrobées d\'une émulsion crémeuse au parmesan 24 mois et généreusement garnies de lamelles de truffes noires fraîches.',
+    category: 'Plat Gastronomique Italien',
+    image: platPatesImg,
+    fallbackGradient: 'from-amber-950 via-stone-900 to-slate-950',
+    status: 'active',
+    price: 24.00,
+    dailyBudget: 28.00,
+    totalSpent: 92.00,
+    impressions: 22100,
+    clicks: 3180,
+    saves: 1540,
+    conversions: 210,
+    revenue: 1250.00,
+    targetAudience: 'Gastronomes, cuisine italienne raffinée, épicuriens, 25-50 ans',
+    destinationUrl: 'https://pin.it/pasta-truffes',
+    adFormat: 'standard',
+    ctaText: 'Commander le plat',
+    createdDate: '23 Octobre 2026',
+    tags: ['Pasta', 'Truffes', 'ItalianFood', 'HauteGastronomie'],
+    mobileEngagementRate: 90.8
   }
 ];
 

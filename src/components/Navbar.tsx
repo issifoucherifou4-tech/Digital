@@ -44,7 +44,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   : 'border-transparent'
               }`}
             >
-              Campagnes (4)
+              Vente Digitale
             </button>
             <button
               onClick={() => setActiveTab('simulator')}

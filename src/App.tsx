@@ -21,7 +21,15 @@ export default function App() {
     const saved = localStorage.getItem('pinads_campaigns');
     if (saved) {
       try {
-        return JSON.parse(saved);
+        const parsed: Campaign[] = JSON.parse(saved);
+        const existingIds = new Set(parsed.map((c) => c.id));
+        const missing = INITIAL_CAMPAIGNS.filter((c) => !existingIds.has(c.id));
+        if (missing.length > 0) {
+          const merged = [...parsed, ...missing];
+          localStorage.setItem('pinads_campaigns', JSON.stringify(merged));
+          return merged;
+        }
+        return parsed;
       } catch (e) {
         return INITIAL_CAMPAIGNS;
       }
