@@ -1,0 +1,6 @@
+{
+  "name": "PinAds Manager - Compte Publicitaire Mobile & Responsive",
+  "description": "Gestionnaire publicitaire mobile et responsive avec intégration des 4 campagnes Pinterest, analytics en temps réel, simulateur smartphone et outils d'intégration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
